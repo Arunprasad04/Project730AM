@@ -1,0 +1,205 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-10T02:45:05.496Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3708507300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "validate the login details.",
+        "description": "",
+        "id": "validation-of-facebook-details;validate-the-login-details.;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 726829200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 779000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on facebook pages",
+            "match": {
+              "location": "StepDefintion.user_is_on_facebook_pages()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 242227900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"test1@gmail.com\"username and \"234234234\"password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test1@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"234234234\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefintion.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 85253700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button and message displayed.",
+            "match": {
+              "location": "StepDefintion.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify success message is displayed",
+            "match": {
+              "location": "StepDefintion.verify_success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-11-10T02:45:10.273Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2591163100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "validate the login details.",
+        "description": "",
+        "id": "validation-of-facebook-details;validate-the-login-details.;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 707224500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HooksClass.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 193700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on facebook pages",
+            "match": {
+              "location": "StepDefintion.user_is_on_facebook_pages()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 345618400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enter \"test2@gmail.com\"username and \"789873423\"password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"test2@gmail.com\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"789873423\"",
+                  "offset": 41
+                }
+              ],
+              "location": "StepDefintion.user_enter_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 155090000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user click the login button and message displayed.",
+            "match": {
+              "location": "StepDefintion.user_click_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 149900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify success message is displayed",
+            "match": {
+              "location": "StepDefintion.verify_success_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Validation of facebook details",
+    "description": "",
+    "id": "validation-of-facebook-details",
+    "keyword": "Feature",
+    "uri": "file:/C:/Users/91959/eclipse-workspace/Project730AMBatch/src/test/resources/LoginPage.feature",
+    "tags": []
+  }
+]
