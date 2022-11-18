@@ -90,6 +90,7 @@ page=new PageObject1();
 	@Given("User is on facebook pages")
 	public void user_is_on_facebook_pages() {
 		System.out.println("Browser Launching");
+		driver.quit();
 		driver.close();
 //	getDriver("chrome");
 //	url("https://www.facebook.com/");
